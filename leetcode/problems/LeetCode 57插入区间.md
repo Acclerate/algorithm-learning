@@ -105,5 +105,4 @@ public int[][] insert(int[][] intervals, int[] newInterval) {
    }
 ```
 
-欢迎关注公众号：`bigsai`,一起打卡力扣。还给大家准备一些干货，一起进步！
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201108160344662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70)

@@ -182,7 +182,6 @@ import java.util.Queue;
 
 import 图论.prim.side;
 /*
- * 作者：bigsai(公众号)
  */
 public class kruskal {
 
@@ -295,5 +294,3 @@ public class kruskal {
 
 最后，如果你那天真的获得一大笔资金去修建这么一条昂贵的黄金路线，可以适当采取此方法，另外剩下的大批，，**苟富贵，勿相忘**。。
 
-如果感觉还行，还请点个赞，关注一下吧，关注笔者公众号：	`bigsai`回复数据结构即可获得数据结构的学习资料和视频一份！
-<img src="http://biggsai.com/bigsai.png"/>

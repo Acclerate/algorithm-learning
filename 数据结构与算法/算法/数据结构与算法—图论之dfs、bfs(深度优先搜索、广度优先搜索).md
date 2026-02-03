@@ -201,13 +201,11 @@ BFS当数据达到一定程度，我们使用简单的方法肯定会爆炸的�
 双向广度优先搜索通过问题的拆分，减少了搜索的次数，从而提高了搜索效率。在一些大规模问题中，这种优化方法能够显著降低时间复杂度。
 
 
-![在这里插入图片描述](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70-20210725181850010.png)
 
 **例题实战**一下，就拿一道经典双向BFS问题给大家展示一下吧！ 
 
 题目链接：[http://oj.hzjingma.com/contest/problem?id=20&pid=8#problem-anchor](http://oj.hzjingma.com/contest/problem?id=20&pid=8#problem-anchor)
 
-![image-20210725182246428](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210725182246428.png)
 
 
 **分析**：对于题目的要求还是很容易理解的，就是找到所有的**路径种类**，再判断其中是**对称路径**的有几个输出即可！
@@ -310,7 +308,6 @@ public class test2 {
 }
 
 ```
-![在这里插入图片描述](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/20200214235616778.png)
 
 
 

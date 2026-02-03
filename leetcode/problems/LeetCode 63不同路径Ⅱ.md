@@ -53,5 +53,4 @@ obstacleGrid[i][j] 为 0 或 1
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201115164304845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70)
 ## 最后
-本次打卡结束了，明日继续更新，恳请朋友们帮个忙🙏，微信搜索「**bigsai**」关注我的原创公众号，新人初期希望大家能够支持一下，白嫖电子书，回复「**进群**」加入力扣打卡群，欢迎来撩谢谢！
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201114173756879.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70)

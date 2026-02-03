@@ -22,7 +22,6 @@
 
 > 刚开始可以为(m,n)区间，后序每次来一个(a,b)跟当前最大区间边界比较，如果小那么进行更新。最终返回两者乘积即可。
 
-![image-20211107142011130](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211107142011130.png)
 
 
 

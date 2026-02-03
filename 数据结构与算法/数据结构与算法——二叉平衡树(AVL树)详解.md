@@ -1,6 +1,5 @@
 ### 什么是ALV树
 
-大家好，我是bigsai，好久不见，甚是想念。
 
 对于树这种数据结构，想必大家也已经不再陌生，我们简单回顾一下。
 
@@ -14,7 +13,6 @@
 
 所以，人们有个期望：对一棵树来说插入节点，小的还在左面，大的还在右面方便查找，但是能不能不要出现那么斜的情况？
 
-![image-20211009170014104](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009170014104.png)
 
 这不，平衡二叉搜索(AVL)树就是这么干的，AVL在插入的时候每次都会旋转自平衡，让整个树一直处于平衡状态，让整个树的查询更加稳定(logN)。我们首先来看一下什么是ALV树：
 
@@ -23,25 +21,21 @@
 - 对于平衡二叉树的最小个数，`n0=0`;`n1=1`;`nk=n(k-1)+n(k-2)+1`;(求法可以类比斐波那契)
 
 难点：AVL是一颗二叉排序树，用什么样的规则或者规律让它能够在**复杂度不太高**的情况下**实现动态平衡**呢？
-![在这里插入图片描述](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70-20211009170033990.png)
 
 ### 不平衡情况
 
 如果从简单情况模型看，其实四种不平衡情况很简单，分别是RR,LL,RL,LR四种不平衡情况。
 
-![image-20211009152542625](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009152542625.png)
 
 
 
 然后将其平衡的结果也很容易(不考虑其附带节点只看结果)，将中间大小数值移动最上方，其他相对位置不变即可：
 
-![image-20211009153734101](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009153734101.png)
 
 
 
 
 当然，这个仅仅是针对三个节点情况太过于理想化了，很多时候让你找不平衡的点，或者我们在解决不平衡的时候，我们需要的就是找到**第一个不平衡(从底往上)**的点将其平衡即可，下面列举两个不平衡的例子：
-![在这里插入图片描述](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70-20211009170058095.png)
 上述四种不平衡条件情况，**可能出现在底部，也可能出现在头，也可能出现在某个中间节点导致不平衡，** 而我们只需要研究其首次不平衡点，**解决之后整棵树即继续平衡**，在具体的处理上我们使用递归的方式解决问题。
 
 
@@ -58,7 +52,6 @@
 
 
 
-![image-20211009155351926](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009155351926.png)
 
 
 出现这种情况的原因是节点的**右侧的右侧较深**这时候不平衡节点需要左旋，再细看过程。
@@ -72,7 +65,6 @@
 
 其更详细流程为：
 
-![image-20211009160514902](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009160514902.png)
 
 
 而左旋的代码可以表示为：
@@ -92,7 +84,6 @@ private node getRRbanlance(node oldroot) {//右右深，需要左旋
 #### LL平衡旋转(右单旋转)
 
 而右旋和左旋相反，但是思路相同，根据上述进行替换即可！
-![image-20211009160328282](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009160328282.png)
 代码：
 
 ```java
@@ -124,7 +115,6 @@ private node getLLbanlance(node oldroot) {//LL小，需要右旋转
 
 这个处理起来非常容易，因为前面已经解决RR(左旋),LL(右旋)的问题，所以这里面在上面基础上可以直接解决，首先对R节点进行一次LL右旋，旋转一次之后R在最右侧，这就转化成RR不平衡旋转的问题了，所以这个时候以ROOT开始一次RR左旋即可完成平衡，具体流程可以参考下面这张图。
 
-![image-20211009163631093](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009163631093.png)
 
 **思路(个人方法)2：直接分析**
 
@@ -132,7 +122,6 @@ private node getLLbanlance(node oldroot) {//LL小，需要右旋转
 
 首先根据`ROOT`,`R`,`R.L`三个节点变化，`R.L`肯定要在最顶层，左右分别指向ROOT和R，那么这其中`R.left`，`ROOT.right`发生变化(原来分别是R.L和R)暂时为空。而刚好根据**左右大小关系**可以补上`R.L`原来的孩子节点`A`，`B`。
 
-![image-20211009164913802](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009164913802.png)
 
 
 代码为：(注释部分为方案1)
@@ -159,7 +148,6 @@ private node getRLbanlance(node oldroot) {//右左深
 这个情况和RL情况相似，采取相同操作即可。
 
 根据上述RL修改即可
-![image-20211009165515944](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009165515944.png)
 
 ```java
 private node getLRbanlance(node oldroot) {
@@ -395,7 +383,6 @@ public class AVLTree {
 
 测试情况：
 
-![image-20211009171311018](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20211009171311018.png)
 
 AVL的理解需要时间，当然笔者的AVL自己写的可能有些疏漏，如果有问题还请各位一起探讨！
 

@@ -37,11 +37,9 @@ dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j])
 
 咱们图解一个案例，初始情况每个点只知道和自己直接相连的点的距离，而其他间接相连的点还不知道距离，比如A-B=2,A-C=3但是B-C在不经过计算的情况是不知道长度的。
 
-![image-20210825234854353](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210825234854353.png)
 
 加入第一个节点`A`进行更新计算,大家可以发现，由于A的加入，使得本来不连通的`B，C`点对和`B，D`点对变得联通，并且加入A后**距离为当前最小**,同时你可以发现加入`A`其中也使得`C-D`多一条联通路径（6+3），但是`C-D`联通的话距离为9远远大于本来的`(C,D)`联通路径2，所以这条不进行更新。
 
-![image-20210826102018687](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210826102018687.png)
 
 
 
@@ -69,7 +67,6 @@ AD1=AB+BD=2+8=10>AD0(6) **不更新**
 
 
 
-![image-20210826115604710](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210826115604710.png)
 
 
 
@@ -120,14 +117,12 @@ public class floyd {
 
 ```
 执行结果为：
-![image-20210826163628018](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210826163628018.png)
 
 可以自行计算，**图和上篇的Dijkstra用的图是一致的**，大家可以自行比对，结果一致，说明咱么的结果成功的。
 
 当然，在你学习的过程中，可以在每加入一个节点插入完成后，**打印邻接矩阵的结果**，看看前两部和笔者的是否相同(有助于理解)，如果相同，则说明正确！
 
 对于加入点更新你可能还是有点疑惑其中的过程，那咱么就用一个局部来演示一下帮助你进一步理解Floyd算法，看其中AB最短距离变化情况祝你理解：
-![image-20210826164944787](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210826164944787.png)
 
 
 
@@ -145,7 +140,6 @@ public class floyd {
 
 **示例1：**
 
-![img](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/find_the_city_01.png)
 
 >输入：n = 4, edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], distanceThreshold = 4
 >输出：3
@@ -159,7 +153,6 @@ public class floyd {
 
 **示例2：**
 
-![img](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/find_the_city_02.png)
 
 
 

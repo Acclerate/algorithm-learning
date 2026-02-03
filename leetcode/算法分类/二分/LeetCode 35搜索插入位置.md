@@ -24,4 +24,3 @@
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200927183125115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70#pic_center)
 
-本次打卡结束拉，下周国庆暂停一次(就一次)。欢迎其他小哥哥小姐姐加入打卡，微信搜索bigsai，回复进群加入打卡力扣！

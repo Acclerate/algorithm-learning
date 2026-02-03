@@ -13,7 +13,6 @@
 >解释: 最长有效括号子串为 "()()"
 
 **分析**
-再看这题之前，咱们回顾一下前面刷过的题。[力扣20有效的括号](https://bigsai.blog.csdn.net/article/details/108432953)
 ![image-20201117213143589](/Users/a1/Library/Application Support/typora-user-images/image-20201117213143589.png)
 
 ## 分析
@@ -112,12 +111,10 @@ public  int longestValidParentheses(String s) {
 
 ## 结语
 
-原创不易，bigsai请你帮两件事帮忙一下:
 
 1. star支持一下， 您的肯定是我在平台创作的源源动力。
 
-2. 微信搜索「**bigsai**」，关注我的公众号，不仅免费送你电子书，我还会第一时间在公众号分享知识技术。加我还可拉你进力扣打卡群一起打卡LeetCode。
+2. 
 
 记得关注、咱们下次再见！
 
-![image-20201114211553660](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201122215000846.png)

@@ -67,7 +67,6 @@ word1 和 word2 由小写英文字母组成
 - 如果两个字符相等，操作的次数直接向前推。
 - 如果不相等，分别递归取最小的(修改，插入，删除)
 
-![image-20201128155501890](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201128155501890.png)
 
 
 
@@ -87,7 +86,6 @@ word1 和 word2 由小写英文字母组成
 
 具体可以参考下图：
 
-![image-20201128160518159](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201128160518159.png)
 
 
 
@@ -125,16 +123,13 @@ public int minDistance(String word1, String word2) {
 }
 ```
 
-![image-20201128160822080](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201128160822080.png)
 
 ## 结语
 
-原创不易，bigsai请你帮两件事帮忙一下:
 
 1. star支持一下， 您的肯定是我在平台创作的源源动力。
 
-2. 微信搜索「**bigsai**」，关注我的公众号，不仅免费送你电子书，我还会第一时间在公众号分享知识技术。加我还可拉你进力扣打卡群一起打卡LeetCode。
+2. 
 
 记得关注、咱们下次再见！
 
-![image-20201114211553660](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201122215000846.png)
