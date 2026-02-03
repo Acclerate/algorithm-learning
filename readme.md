@@ -2,6 +2,8 @@
 
 ## 前言
 
+> **本项目已独立维护**：这是基于 [bigsai/bigsai-algorithm](https://github.com/bigsai/bigsai-algorithm) 的独立维护版本。原项目已多年未更新，本仓库由 [Acclerate](https://github.com/Acclerate) 进行独立维护和扩展。
+
 本仓库主要是个人数据结构与算法文章(慢慢优化同步)和力扣剑指offer等题解。内容绝对丰富，欢迎star哦！
 
 本仓库后面还会接纳其他优秀数据结构与算法的文章、题解。如果有问题请联系笔者vx：bigsai66
