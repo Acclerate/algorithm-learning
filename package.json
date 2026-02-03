@@ -1,0 +1,20 @@
+{
+  "name": "bigsai-algorithm",
+  "version": "1.0.0",
+  "description": "本仓库主要是个人数据结构与算法文章(慢慢优化同步)和力扣剑指offer等题解。内容绝对丰富，欢迎star哦！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acclerate/bigsai-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acclerate/bigsai-algorithm/issues"
+  },
+  "homepage": "https://github.com/Acclerate/bigsai-algorithm#readme"
+}
