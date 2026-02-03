@@ -1,2 +1,4 @@
 tmpclaude-*-cwd
 nul
+.claude/*
+.claude/settings.local.json
