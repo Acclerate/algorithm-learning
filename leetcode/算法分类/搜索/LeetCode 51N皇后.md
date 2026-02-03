@@ -24,7 +24,6 @@ n 皇后问题研究的是如何将 n 个皇后放置在 n×n 的棋盘上，并
 提示：
 皇后彼此不能相互攻击，也就是说：任何两个皇后都不能处于同一条横行、纵行或斜线上。
 
-八皇后问题我再这篇：**[回溯算法 | 追忆那些年曾难倒我们的八皇后问题](https://bigsai.blog.csdn.net/article/details/109073818)** 讲的已经很清楚了，不懂的可以详细看看。
 
 
 在具体的实现上，就是需要一个`map[][]`的地图记录各个位置的符号，然后按照规则存储进去，但我这里用了个`StringBuilder[]`数组来完成。
@@ -93,4 +92,3 @@ private void dfs(int index, StringBuilder sBuilder[], List<List<String>> list,in
 总是熟悉的100%：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201101111525758.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70)
 
-结语：好了今天就到这里了，欢迎关注原创技术公众号：【**bigsai**】，回复**进群**加笔者微信一起加入打卡！回复「**bigsai**」，领取进阶资源。

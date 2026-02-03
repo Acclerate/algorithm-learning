@@ -1,6 +1,5 @@
 # LeetCode 04寻找两个正序数组的中位数(困难)二分法
 
->公众号：bigsai
 
 **题目描述：**
 >给定两个大小为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。
@@ -159,9 +158,8 @@ public static double findMedianSortedArrays2(int[] nums1, int[] nums2) {
 
 1. star、follow支持一下， 您的肯定是我在平台创作的源源动力。
 
-2. 微信搜索「**bigsai**」，关注我的公众号，不仅免费送你电子书，我还会第一时间在公众号分享知识技术。加我还可拉你进力扣打卡群一起打卡LeetCode。
+2. 
 
 记得关注、咱们下次再见！
 
-![image-20201114211553660](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201122215000846.png)
 

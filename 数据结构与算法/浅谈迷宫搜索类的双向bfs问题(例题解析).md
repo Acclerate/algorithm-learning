@@ -1,7 +1,6 @@
 
 @[TOC](文章目录)
 ## 前言
->文章若有疏忽还请指正，更多精彩还请关注公众号：`bigsai`
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200215000450177.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_16,color_FFFFFF,t_70)
 
 在搜索问题中，以迷宫问题最具有代表性，无论是八皇后的回溯问题，还是dfs找出口，bfs找最短次数等等题目的问题。在我们刚开始ac的时候、可能有着很多满足感！感觉是个迷宫问题咱么都可以给他这么搜出来 ！！
@@ -18,7 +17,6 @@ bfs又称广度优先搜索
 
 而很多笔试面试还是其他机试其实对bfs的要求远远不止那么低的，需要能够处理一些小问题、写出对应代码。而事`bfs`可以处理很多问题，很多dfs搜索能够解决的问题bfs也能解决很多(相反也成立)，并且很多跟`状态`有些关系的用bfs更好控制，因为bfs借助的是一个**队列**实现，队列中储存节点就可以保存一些节点的状态。
 ![](https://img-blog.csdnimg.cn/20190904001832921.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_16,color_FFFFFF,t_70)
-不过bfs并不是万能的，具体问题要看迷宫的大小的，迷宫长宽没增加一个数，那么这个数量级增加是非常大的，因为搜索次数大概和边长的指数级别有关系。当然这里不详细介绍bfs了，大家可以看以前的一篇文章。[数据结构与算法—图论之dfs、bfs(深度优先搜索、宽度优先搜索)](https://bigsai.blog.csdn.net/article/details/100185967)。
 
 ## 双向bfs
 什么样的情况可以使用双向bfs来优化呢?其实双向bfs的主要思想是问题的拆分吧，**比如在一个迷宫中可以往下往右行走，问你有多少种方式从左上到右下。**
@@ -140,4 +138,3 @@ public class test2 {
 
 
 
-<img src="https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20210830164752175.png" alt="image-20210830164752175" style="zoom:50%;" />

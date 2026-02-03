@@ -1,5 +1,4 @@
 ## LeetCode 10正则表达式匹配(动态规划)
-![image-20201115193811962](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201115193811962.png)
 
 ## 递归(超时)
 这题刚开始见到，还以为遇到原题了，因为跟剑指offer的其中一题非常像，[剑指offer第52题](https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&&tqId=11205&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)正则表达式，只不过那题给的两个char类型的数组，当时弱弱的用递归暴力过了。
@@ -153,8 +152,7 @@ public static boolean isMatch(String s, String p) {
 
 1. star支持一下， 您的肯定是我在平台创作的源源动力。
 
-2. 微信搜索「**bigsai**」，关注我的公众号，不仅免费送你电子书，我还会第一时间在公众号分享知识技术。加我还可拉你进力扣打卡群一起打卡LeetCode。
+2. 
 
 记得关注、咱们下次再见！
 
-![image-20201114211553660](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201122215000846.png)

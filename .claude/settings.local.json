@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(git config:*)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "mcp__mcp-github-serve__create_repository",
+      "Bash(git push:*)",
+      "Bash(dir:*)",
+      "Bash(powershell -Command \"\\(Get-ChildItem -Path . -Recurse -Include *.md | Where-Object { $_-notlike ''*node_modules*'' -and $_-notlike ''*\\\\.idea*'' }\\).FullName\")",
+      "Bash(find:*)",
+      "Bash(git add:*)"
     ]
   }
 }

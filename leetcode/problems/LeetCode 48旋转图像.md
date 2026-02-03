@@ -1,5 +1,4 @@
 ## LeetCode 48旋转图像
-![image-20201118214849351](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201118214849351.png)
 
 **分析：**
 
@@ -46,5 +45,4 @@ public void rotate(int[][] matrix) {
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201031193516197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70)
 
-结语：好了今天就到这里了，欢迎关注原创技术公众号：【**bigsai**】，回复**进群**加笔者微信一起加入打卡！
 

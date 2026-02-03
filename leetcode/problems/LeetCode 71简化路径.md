@@ -61,7 +61,6 @@
 
 这题就是栈的应用，通过栈遍历放入目录，在遍历字符串的同时如果遇到`/` 那么就考虑进行操作。逻辑如下：
 
-![image-20201128154125060](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201128154125060.png)
 
 具体编写代码的时候，需要注意是否为最后一个字符和一些特殊情况(栈为空则别抛出)。
 
@@ -112,4 +111,3 @@ public String simplifyPath(String path) {
 }
 ```
 
-![image-20201128154318877](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201128154318877.png)

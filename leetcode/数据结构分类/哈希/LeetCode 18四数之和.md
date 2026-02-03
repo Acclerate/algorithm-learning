@@ -16,7 +16,6 @@
 >[-2,  0, 0, 2]
 >]
 
-分析，前面我们做过[三数之和](https://bigsai.blog.csdn.net/article/details/108299163)。这里四数之和也采用比较相似的方法。
 
 三数之和固定循环一层i，然后left和right从右侧向中间双指针试探
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020090121370362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_1,color_FFFFFF,t_70#pic_center)
@@ -80,11 +79,10 @@ public List<List<Integer>> fourSum(int[] nums, int target) {
 
 ## 结语
 
-原创不易，bigsai请你帮两件事帮忙一下:
 
 1. star支持一下， 您的肯定是我在平台创作的源源动力。
 
-2. 微信搜索「**bigsai**」，关注我的公众号，不仅免费送你电子书，我还会第一时间在公众号分享知识技术。加我还可拉你进力扣打卡群一起打卡LeetCode。
+2. 
 
 记得关注、咱们下次再见！
 

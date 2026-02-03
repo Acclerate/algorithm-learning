@@ -1,6 +1,4 @@
 ## LeetCode 08字符串转整数
-![image-20201115191511298](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201115191511298.png)
-![image-20201115191559452](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201115191559452.png)
 **分析：**
 
 本题主要是字符串的处理。需要注意以下几点：
@@ -50,9 +48,8 @@ public static int myAtoi(String str) {
 
 1. star、follow支持一下， 您的肯定是我在平台创作的源源动力。
 
-2. 微信搜索「**bigsai**」，关注我的公众号，不仅免费送你电子书，我还会第一时间在公众号分享知识技术。加我还可拉你进力扣打卡群一起打卡LeetCode。
+2. 
 
 记得关注、咱们下次再见！
 
-![image-20201114211553660](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201122215000846.png)
 

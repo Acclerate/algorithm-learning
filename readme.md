@@ -2,15 +2,9 @@
 
 ## 前言
 
-> **本项目已独立维护**：这是基于 [bigsai/bigsai-algorithm](https://github.com/bigsai/bigsai-algorithm) 的独立维护版本。原项目已多年未更新，本仓库由 [Acclerate](https://github.com/Acclerate) 进行独立维护和扩展。
+> **本项目已独立维护**：本仓库由 [Acclerate](https://github.com/Acclerate) 进行独立维护和扩展。
 
-本仓库主要是个人数据结构与算法文章(慢慢优化同步)和力扣剑指offer等题解。内容绝对丰富，欢迎star哦！
-
-本仓库后面还会接纳其他优秀数据结构与算法的文章、题解。如果有问题请联系笔者vx：bigsai66
-
-资源会会整理成pdf送给大家！欢迎大家扫码关注公众号：**bigsai**
-
-![数据结构与算法](assets/数据结构与算法.png)
+本仓库主要是个人数据结构与算法文章和力扣剑指offer等题解。内容持续更新中，欢迎star！
 
 
 
@@ -355,11 +349,3 @@
 - LeetCode 198 打家劫舍 动态规划
 - LeetCode 213 打家劫舍② 动态规划
 - LeetCode 377 打家劫舍③ 动态规划 (树形DP)
-
-
-
-资源会优先在公众号发布，本文档后期也会整理成pdf送给大家！欢迎大家扫码关注公众号：**bigsai**
-
-
-
-![欢迎关注](https://bigsai.oss-cn-shanghai.aliyuncs.com/img/image-20201122214904687.png)
